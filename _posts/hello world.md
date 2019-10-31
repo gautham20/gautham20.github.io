@@ -1,3 +1,11 @@
+---
+layout: post
+published: true
+title: >-
+  Hello World
+---
+
+
 ## Hello World
 
 This blog will save as a Machine Learning journal. I'll write what I learn, with the main aim being to present a consise, and easy to understand explanation on specific topics, concepts, algorithms etc.
