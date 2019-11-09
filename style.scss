@@ -903,8 +903,8 @@ footer {
 
 // my customizations
 
-table {
-	border: 1px!important;	
+table, div.highlight {
+	border: 1!important;	
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
