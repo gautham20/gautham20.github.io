@@ -5,15 +5,6 @@ title: >-
   NLP Processing with Torchtext
 ---
 
-```python
-import numpy as np
-import pandas as pd
-import torchtext
-import torch
-```
-
-### NLP Data preprocessing
-
 Most of the NLP tasks involves a set of preprocessing steps after which they can be fed into any machine learning model. The common ones are
 
 - **Text cleaning** - involves punctuations and stop-words removal, lemmetization etc. These steps make sense when you have simple model, not necessary for deep learning etc.
@@ -21,6 +12,8 @@ Most of the NLP tasks involves a set of preprocessing steps after which they can
 - **numericalization** - build a vocabulary and assign a number to each word (and ngrams) in it. Special characters like < unk > < pad > are also assigned a number
 - **Generate sentence vectors** - converts a sentence into a list of numbers from the vocab, can include padding
 - **Use pretrained word embeddings** - this step is task specific. In some tasks it makes sense to use pretrained embeddings instead of training embeddings from scratch.
+
+<!--more-->
     
 These steps are usually handled by writing ad-hoc code, and it's very common that some bugs introduced in these steps will affect the whole pipeline. So given this background I came across torchtext. In the outset it provides an API that takes a dataset as input to a wrapper that has all these steps configured in it. Beyond this it provides various features which are needed for specific tasks like language modelling, language translation etc.
 
@@ -30,6 +23,12 @@ In addition to this it integrates well with pytorch's entire ecosystem.
 
 I'll try to apply these steps to apply these steps to AG_NEWS dataset. This dataset is readily available in torchtext, but to get a better understanding I'll load the dataset from the files.
 
+```python
+import numpy as np
+import pandas as pd
+import torchtext
+import torch
+```
 
 ```python
 !ls ./data/ag_news_csv/
