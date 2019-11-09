@@ -497,5 +497,6 @@ This process with little tweaks can be repeated for most NLP tasks. I'll update 
 Along with torchtext documentation these writeups helped me in putting this together, and inspired the ideas presented here.
 
 [medium.com/@sonicboom8/sentiment-analysis-torchtext-55fb57b1fab8 ](https://medium.com/@sonicboom8/sentiment-analysis-torchtext-55fb57b1fab8 )
+
 [anie.me/On-Torchtext/](http://anie.me/On-Torchtext/)
 
