@@ -6,7 +6,7 @@ title: >-
 ---
 
 
-This blog will save as a Machine Learning journal. I'll write what I learn, with the main aim being to present a consise, and easy to understand explanation on specific topics, concepts, algorithms etc.
+This blog will serve as a Machine Learning journal. I'll write what I learn, with the main aim being to present a consise, and easy to understand explanation on specific topics, concepts, algorithms etc.
 
 Let's get started
 
